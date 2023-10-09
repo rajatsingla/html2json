@@ -1,0 +1,37 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tiptap/core": "^2.1.9",
+    "@tiptap/extension-blockquote": "^2.1.9",
+    "@tiptap/extension-bold": "^2.1.9",
+    "@tiptap/extension-code": "^2.1.9",
+    "@tiptap/extension-document": "^2.1.9",
+    "@tiptap/extension-hard-break": "^2.1.9",
+    "@tiptap/extension-heading": "^2.1.9",
+    "@tiptap/extension-italic": "^2.1.9",
+    "@tiptap/extension-link": "^2.1.9",
+    "@tiptap/extension-list-item": "^2.1.9",
+    "@tiptap/extension-ordered-list": "^2.1.9",
+    "@tiptap/extension-paragraph": "^2.1.9",
+    "@tiptap/extension-text": "^2.1.9",
+    "@tiptap/html": "^2.1.9",
+    "@tiptap/pm": "^2.1.9",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "morgan": "^1.10.0",
+    "npm": "^10.1.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
