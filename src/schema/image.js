@@ -3,7 +3,7 @@ import { Node } from "@tiptap/core";
 
 export const Image = Node.create({
   name: "image",
-
+  group: "block",
   selectable: true,
 
   addAttributes() {

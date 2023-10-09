@@ -40,3 +40,5 @@ export const convert = (html) => {
     
   ])
 }
+// const html = `<p>asdasd</p> <img src="google.com">`
+// console.log(JSON.stringify( convert(html)))
