@@ -2,6 +2,7 @@
 import { JSDOM } from 'jsdom';
 
 export function moveInlineImagesToBlockLevel(html) {
+    html = html.replace(/<iframe(.*?)\/>/g, '<iframe$1></iframe>');
     // Parse the HTML string
     const dom = new JSDOM(html);
     const document = dom.window.document;
