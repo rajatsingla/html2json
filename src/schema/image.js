@@ -17,6 +17,18 @@ export const Image = Node.create({
           };
         },
       },
+      height: {
+        default: "",
+        parseHTML: (element) => {
+          return element.getAttribute("height");
+        }
+      },
+      width: {
+        default: "",
+        parseHTML: (element) => {
+          return element.getAttribute("width")
+        }
+      }
     };
   },
 
